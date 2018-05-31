@@ -13,17 +13,12 @@ def home():
 
 @app.route("/recommendations", methods = ['GET', 'POST'])
 def recommend():
-    if request.method == 'POST':
-        json_data = request.get_json(force=True)
-        program = json_data['program']
-        k = json_data['k'] + 1
-        recommendations = recommender.get_recommendations(
-            program, recommender.cosine_sim, k)
-    if request.method == 'GET':
-        print(" This will simply return the top 5/10 most popular programs"
-              " This will be implemented in later releases")
+    program = request.args.get("program")
+    k = int(request.args.get("k")) + 1
+    recommendations = recommender.get_recommendations(
+        program, recommender.cosine_sim, k)
     return jsonify(recommendations)
 
 
 if __name__ == "__main__":
-    app.run(port=7070, threaded=True, debug=True)
+    app.run(host="0.0.0.0", port=7070, threaded=True, debug=True)
