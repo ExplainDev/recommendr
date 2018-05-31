@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, render_template
-import read_json
+import recommender
 
 
 app = Flask(__name__)
@@ -17,9 +17,8 @@ def recommend():
         json_data = request.get_json(force=True)
         program = json_data['program']
         k = json_data['k'] + 1
-        recommendations = read_json.get_recommendations(program,
-                                                        read_json.cosine_sim,
-                                                        k)
+        recommendations = recommender.get_recommendations(
+            program, recommender.cosine_sim, k)
     if request.method == 'GET':
         print(" This will simply return the top 5/10 most popular programs"
               " This will be implemented in later releases")
