@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
-path = 'file://localhost/path/to/programs.example.json/'
+path = '/ml_kmdr/programs.example.json'
 
 metadata = pd.read_json(path, orient='columns')
 
