@@ -12,10 +12,10 @@ This API service recommends a k number of programs similar to another program  y
 `git clone git@github.com:kommandr/kommandr-ML.git`
 
 ### Build docker image
-`docker build -t api-recommender .`
+`docker build -t api-recommendr .`
 
 ### Run docker container
-`docker run --rm -it --name api-recommender -p 7070:7070 api-recommender`
+`docker run --rm -it --name api-recommendr -p 7070:7070 --network kommandrapi_default api-recommendr`
 
 ## Usage
 Examples
