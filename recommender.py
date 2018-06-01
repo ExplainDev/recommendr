@@ -25,6 +25,12 @@ indices = pd.Series(metadata.index, index=metadata['cliName']).\
 def get_recommendations(cliName, cosine_sim=cosine_sim, k=None):
     # Get the index of the program that matches the cliName
     idx = indices[cliName]
+    
+    # If the Index object is iterable, it means there is ambiguity because of same program name.
+    # Curently, we are choosing one and moving ahead, but this will be changed in future.
+    if hasattr(idx, '__iter__'):
+        z = [x for x in idx]
+        idx = z[1]
 
     # Get the pairwsie similarity scores of all programs with that program
     sim_scores = list(enumerate(cosine_sim[idx]))
