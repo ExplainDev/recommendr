@@ -1,10 +1,12 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
+import json
 
-path = 'file://localhost/path/to/programs.example.json/'
+with open("programs.example.json") as json_file:
+  data = json.load(json_file)
 
-metadata = pd.read_json(path, orient='columns')
+metadata = pd.DataFrame(data=data['programs'])
 
 # Create the tfidf vectorizer object
 tfidf = TfidfVectorizer(stop_words='english')
