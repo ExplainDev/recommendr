@@ -14,9 +14,16 @@ def home():
 @app.route("/recommendations", methods = ['GET', 'POST'])
 def recommend():
     program = request.args.get("program")
-    k = int(request.args.get("k")) + 1
+    if request.args.get("platformid"):
+        platformid = int(request.args.get("platformid"))
+    else:
+        platformid = None
+    if request.args.get("k"):
+        k = int(request.args.get("k")) + 1
+    else:
+        k = None
     recommendations = recommender.get_recommendations(
-        program, recommender.cosine_sim, k)
+        program, platformid, recommender.cosine_sim, k)
     return jsonify(recommendations)
 
 
