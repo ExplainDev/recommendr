@@ -12,7 +12,6 @@ metadata = pd.DataFrame(data=data['programs'])
 tfidf = TfidfVectorizer(stop_words='english')
 
 metadata['shortDescription'] = metadata['shortDescription'].fillna('')
-
 tfidf_matrix = tfidf.fit_transform(metadata['shortDescription'])
 
 # Using cosine similarity between descriptions.
@@ -27,10 +26,13 @@ def get_recommendations(cliName, cosine_sim=cosine_sim, k=None):
     idx = indices[cliName]
     
     # If the Index object is iterable, it means there is ambiguity because of same program name.
-    # Curently, we are choosing one and moving ahead, but this will be changed in future.
+    # As the same program can belong to different platforms with the same or different functionality.
+    # The ambiguity is resolved by providing a platformid 
     if hasattr(idx, '__iter__'):
         z = [x for x in idx]
-        idx = z[1]
+        for indx in z:
+            if metadata['platformId'].iloc[indx] == platform_id:
+                idx = indx
 
     # Get the pairwsie similarity scores of all programs with that program
     sim_scores = list(enumerate(cosine_sim[idx]))
@@ -44,14 +46,13 @@ def get_recommendations(cliName, cosine_sim=cosine_sim, k=None):
     # Get the program indices
     program_indices = [i[0] for i in sim_scores]
 
-    # import pdb; pdb.set_trace()
-
     # Return the top k or 5 most similar programs
     names = metadata['cliName'].iloc[program_indices].tolist()
     description = metadata['shortDescription'].iloc[program_indices].tolist()
-    recs = {}
-
+    
+    recs = dict()
+    recs["recommendations"] = []
     for x, y in zip(names, description):
-        recs[x] = y
+        recs["recommendations"].append({"cliName": x, "shortDescription": y})
 
     return recs
