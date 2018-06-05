@@ -21,7 +21,7 @@ indices = pd.Series(metadata.index, index=metadata['cliName']).\
     drop_duplicates()
 
 
-def get_recommendations(cliName, cosine_sim=cosine_sim, k=None):
+def get_recommendations(cliName, platform_id, cosine_sim=cosine_sim, k=None):
     # Get the index of the program that matches the cliName
     idx = indices[cliName]
     
