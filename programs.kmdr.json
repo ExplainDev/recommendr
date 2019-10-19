@@ -1,0 +1,1129 @@
+{
+  "programs": [
+    {
+      "name": "at",
+      "summary": "execute commands at a later time",
+      "description": "Executes commands at a specified time."
+    },
+    {
+      "name": "mailx",
+      "summary": "process messages",
+      "description": "Send and receive mail."
+    },
+    {
+      "name": "trap",
+      "summary": "trap signals",
+      "description": "Automatically execute commands after receiving signals by processes or the operating system.\nCan be used to perform cleanups for interruptions by the user or other actions."
+    },
+    {
+      "name": "ansible-galaxy",
+      "summary": "Create and manage Ansible roles",
+      "description": "Create and manage Ansible roles."
+    },
+    {
+      "name": "bc",
+      "summary": "arbitrary-precision arithmetic language",
+      "description": "Calculator."
+    },
+    {
+      "name": "aria2c",
+      "summary": "The ultra fast download utility",
+      "description": "Fast download utility.\nSupports HTTP(S), FTP, SFTP, BitTorrent, and Metalink."
+    },
+    {
+      "name": "basename",
+      "summary": "Strip directory and suffix from filenames",
+      "description": "Returns non-directory portion of a pathname."
+    },
+    {
+      "name": "cd",
+      "summary": "Change working directory",
+      "description": "It changes your working directory. Use it to move around in the hierarchy of your file system."
+    },
+    {
+      "name": "cat",
+      "summary": "Concatenate files and print on the standard output",
+      "description": "Print and concatenate files."
+    },
+    {
+      "name": "nslookup",
+      "summary": "query Internet name servers interactively",
+      "description": "Query name server(s) for various domain records."
+    },
+    {
+      "name": "chsh",
+      "summary": "change login shell",
+      "description": "Change user's login shell."
+    },
+    {
+      "name": "adb",
+      "summary": "Android Debug Bridge",
+      "description": "Android Debug Bridge: communicate with an Android emulator instance or connected Android devices."
+    },
+    {
+      "name": "apropos",
+      "summary": "search the manual page names and descriptions",
+      "description": "Search in manpages, for example to find a new command."
+    },
+    {
+      "name": "cp",
+      "summary": "Copy files and directories",
+      "description": "Copy files and folders."
+    },
+    {
+      "name": "base32",
+      "summary": "base32 encode/decode data and print to standard output",
+      "description": "Encode or decode file or standard input, to standard output."
+    },
+    {
+      "name": "cal",
+      "summary": "Display a calendar",
+      "description": "Cal displays a simple calendar.  If no arguments are specified, the current month is displayed."
+    },
+    {
+      "name": "chown",
+      "summary": "Change the file ownership",
+      "description": "Change user and group ownership of files and folders."
+    },
+    {
+      "name": "date",
+      "summary": "Print or set the system date and time",
+      "description": "Display the current time in the given FORMAT, or set the system date."
+    },
+    {
+      "name": "column",
+      "summary": "Columnate lists",
+      "description": "Format standard input or file into multiple columns.\nRows are filled before columns; default separator is whitespace."
+    },
+    {
+      "name": "man",
+      "summary": "display system documentation",
+      "description": "Format and display manual pages."
+    },
+    {
+      "name": "dig",
+      "summary": "DNS lookup utility",
+      "description": "Dig is a flexible tool for interrogating DNS name servers. It performs DNS lookups and displays the answers that are returned from the name server(s) that were queried. Most DNS administrators use dig to troubleshoot DNS problems because of its flexibility, ease of use and clarity of output."
+    },
+    {
+      "name": "VBoxManage",
+      "summary": "Control Oracle VM VirtualBox from the command line of your host operating system.",
+      "description": "VBoxManage is the command-line interface to Oracle VM VirtualBox. With it, you can completely control Oracle VM VirtualBox from the command line of your host operating system. VBoxManage supports all the features that the graphical user interface gives you access to, but it supports a lot more than that. It exposes all the features of the virtualization engine, even those that cannot be accessed from the GUI"
+    },
+    {
+      "name": "du",
+      "summary": "Estimate file space usage",
+      "description": "Summarize disk usage of each FILE, recursively for directories."
+    },
+    {
+      "name": "ansible-playbook",
+      "summary": "Runs Ansible playbooks, executing the defined tasks on the targeted hosts",
+      "description": "Execute tasks defined in playbook on remote machines over SSH."
+    },
+    {
+      "name": "autossh",
+      "summary": "Monitor and restart ssh sessions",
+      "description": "Runs, monitors and restarts SSH connections.\nAuto-reconnects to keep port forwarding tunnels up. Accepts all ssh flags."
+    },
+    {
+      "name": "bash",
+      "summary": "GNU Bourne-Again SHell",
+      "description": "Bourne-Again SHell.\n`sh`-compatible command line interpreter."
+    },
+    {
+      "name": "bg",
+      "summary": "run jobs in the background",
+      "description": "Resumes jobs that have been suspended (e.g. using `Ctrl + Z`), and keeps them running in the background."
+    },
+    {
+      "name": "chgrp",
+      "summary": "Change group ownership",
+      "description": "Change group ownership of files and folders."
+    },
+    {
+      "name": "clear",
+      "summary": "Clear the terminal screen",
+      "description": "Clears the screen of the terminal."
+    },
+    {
+      "name": "doxygen",
+      "summary": "documentation system for various programming languages",
+      "description": "A documentation system for various programming languages."
+    },
+    {
+      "name": "mongodump",
+      "summary": "export MongoDB data from a server to BSON files",
+      "description": "Utility to export the contents of a MongoDB database instance."
+    },
+    {
+      "name": "ack",
+      "summary": "grep-like text finder",
+      "description": "A search tool like grep, optimized for programmers."
+    },
+    {
+      "name": "curl",
+      "summary": "Transfer a URL",
+      "description": "Transfers data from or to a server. Supports most protocols, including HTTP, FTP, and POP3."
+    },
+    {
+      "name": "ansible",
+      "summary": "Define and run a single task 'playbook' against a set of hosts",
+      "description": "Manage groups of computers remotely over SSH.\nUse the /etc/ansible/hosts file to add new groups/hosts."
+    },
+    {
+      "name": "awk",
+      "summary": "Pattern scanning and processing language",
+      "description": "Gawk is the GNU Project's implementation of the AWK programming language. It conforms to the definition of the language in the POSIX 1003.1 Standard."
+    },
+    {
+      "name": "diff",
+      "summary": "compare files line by line",
+      "description": "Compare files and directories."
+    },
+    {
+      "name": "brew",
+      "summary": "The missing package manager for macOS",
+      "description": "Homebrew is the easiest and most flexible way to install the UNIX tools Apple didn’t include with macOS."
+    },
+    {
+      "name": "dpkg-query",
+      "summary": "a tool to query the dpkg database",
+      "description": "A tool that shows information about installed packages."
+    },
+    {
+      "name": "chmod",
+      "summary": "Change the file modes",
+      "description": "Change the access permissions of a file or directory."
+    },
+    {
+      "name": "export",
+      "summary": "Set export attribute for shell variables",
+      "description": "Set export attribute for shell variables."
+    },
+    {
+      "name": "free",
+      "summary": "Display amount of free and used memory in the system",
+      "description": "Display the total amount of free and used physical and swap memory in the system."
+    },
+    {
+      "name": "cmp",
+      "summary": "Compare two files",
+      "description": "Compare two files."
+    },
+    {
+      "name": "groupadd",
+      "summary": "Create a new group",
+      "description": "The groupadd command creates a new group account using the values specified on the command line plus the default values from the system. The new group will be entered into the system files as needed"
+    },
+    {
+      "name": "crontab",
+      "summary": "Schedule periodic background work",
+      "description": "Schedule cron jobs to run on a time interval for the current user.\nJob definition format: \"(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute\"."
+    },
+    {
+      "name": "cppcheck",
+      "summary": "Tool for static C/C++ code analysis",
+      "description": "A static analysis tool for C/C++ code.\nInstead of syntax errors, it focuses on the types of bugs that compilers normally do not detect."
+    },
+    {
+      "name": "head",
+      "summary": "Output the first part of files",
+      "description": "Output the first part of files."
+    },
+    {
+      "name": "df",
+      "summary": "Report file system disk space usage",
+      "description": "Gives an overview of the file system disk space usage."
+    },
+    {
+      "name": "htop",
+      "summary": "Interactive process viewer",
+      "description": "Display dynamic real-time information about running processes.  An enhanced version of `top`."
+    },
+    {
+      "name": "install",
+      "summary": "Copy files and set attributes",
+      "description": "This install program copies files (often just compiled) into destination locations you choose. If you want to download and install a ready-to-use package on a GNU/Linux system, you should instead be using a package manager like yum(1) or apt-get(1)."
+    },
+    {
+      "name": "dmesg",
+      "summary": "Print or control the kernel ring buffer",
+      "description": "Dmesg is used to examine or control the kernel ring buffer"
+    },
+    {
+      "name": "isoinfo",
+      "summary": "Utility programs for dumping and verifying iso9660 images",
+      "description": "Utility programs for dumping and verifying ISO disk images."
+    },
+    {
+      "name": "env",
+      "summary": "run a program in a modified environment",
+      "description": "Show the environment or run a program in a modified environment."
+    },
+    {
+      "name": "kill",
+      "summary": "Terminate or signal processes",
+      "description": "Sends a signal to a process, usually related to stopping the process.\nAll signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit."
+    },
+    {
+      "name": "dd",
+      "summary": "Convert and copy a file.",
+      "description": "Copy a file, converting and formatting according to the operands."
+    },
+    {
+      "name": "find",
+      "summary": "Search for files in a directory hierarchy.",
+      "description": "Find files under the given directory tree, recursively."
+    },
+    {
+      "name": "ln",
+      "summary": "link files",
+      "description": "Creates links to files and folders."
+    },
+    {
+      "name": "make",
+      "summary": "GNU make utility to maintain groups of programs",
+      "description": "Task runner for targets described in Makefile.\nMostly used to control the compilation of an executable from source code."
+    },
+    {
+      "name": "grep",
+      "summary": "Print lines matching a pattern",
+      "description": "Searches the named input FILEs (or standard input if no files are named, or if a single hyphen-minus (-) is given as file name) for lines containing a match to the given PATTERN. By default, grep prints the matching lines."
+    },
+    {
+      "name": "halt",
+      "summary": "Halt, power-off or reboot the machine",
+      "description": "halt, poweroff, reboot may be used to halt, power-off or reboot the machine."
+    },
+    {
+      "name": "hostname",
+      "summary": "show or set the system's host name",
+      "description": "Show or set the system's host name."
+    },
+    {
+      "name": "dir",
+      "summary": "List directory contents",
+      "description": "List information about the FILEs (the current directory by default). Sort entries alphabetically if none of -cftuvSUX nor --sort is specified"
+    },
+    {
+      "name": "fg",
+      "summary": "run jobs in the foreground",
+      "description": "Run jobs in foreground."
+    },
+    {
+      "name": "ifconfig",
+      "summary": "Configure a network interface ",
+      "description": "Ifconfig is used to configure the kernel-resident network interfaces. It is used at boot time to set up interfaces as necessary. After that, it is usually only needed when debugging or when system tuning is needed."
+    },
+    {
+      "name": "qpdf",
+      "summary": "PDF transformation software",
+      "description": "Versatile PDF transformation software."
+    },
+    {
+      "name": "adduser",
+      "summary": "Create a new user or update default new user information",
+      "description": "Adduser  and addgroup add users and groups to the system according to command line options and configuration information in /etc/adduser.conf.  They are friendlier front ends to the low  level  tools  like useradd, groupadd and usermod programs, by default choosing Debian policy  conformant  UID  and  GID  values,  creating  a  home  directory   with   skeletal configuration,  running  a custom script, and other features"
+    },
+    {
+      "name": "ffmpeg",
+      "summary": "ffmpeg video converter",
+      "description": "FFmpeg is a very fast video and audio converter that can also grab from a live audio/video source. It can also convert between arbitrary sample rates and resize video on the fly with a high quality polyphase filter."
+    },
+    {
+      "name": "apt",
+      "summary": "Advanced Package Tool",
+      "description": "Apt provides a high-level commandline interface for the package management system."
+    },
+    {
+      "name": "base64",
+      "summary": "base64 encode/decode data and print to standard output",
+      "description": "Encode or decode file or standard input, to standard output."
+    },
+    {
+      "name": "cargo",
+      "summary": "The Rust package manager",
+      "description": "Rust package manager.\nManage Rust projects and their module dependencies (crates)."
+    },
+    {
+      "name": "iptables",
+      "summary": "Administration tool for IPv4/IPv6 packet filtering and NAT  ",
+      "description": "Iptables and ip6tables are used to set up, maintain, and inspect the tables of IPv4 and IPv6 packet filter rules in the Linux kernel."
+    },
+    {
+      "name": "chroot",
+      "summary": "Run command or interactive shell with special root directory",
+      "description": "Run COMMAND with root directory set to NEWROOT."
+    },
+    {
+      "name": "mongod",
+      "summary": "MongoDB Server",
+      "description": "The MongoDB database server."
+    },
+    {
+      "name": "jupyter",
+      "summary": "obtain user-related paths for Jupyter",
+      "description": "Web application to create and share documents that contain code, visualizations and notes.\nPrimarily used for data analysis, scientific computing and machine learning."
+    },
+    {
+      "name": "echo",
+      "summary": "Display a line of text",
+      "description": "Print given arguments."
+    },
+    {
+      "name": "command",
+      "summary": "Execute a simple command",
+      "description": "The command utility shall cause the shell to treat the arguments as a simple command."
+    },
+    {
+      "name": "less",
+      "summary": "Opposite of more",
+      "description": "Open a file for interactive reading, allowing scrolling and search."
+    },
+    {
+      "name": "gofmt",
+      "summary": "Gofmt formats Go programs.",
+      "description": "Gofmt formats Go programs. It uses tabs for indentation and blanks for alignment. Alignment assumes that an editor is using a fixed-width font."
+    },
+    {
+      "name": "cut",
+      "summary": "Remove sections from each line of files",
+      "description": "Print selected parts of lines from each FILE to standard output."
+    },
+    {
+      "name": "diffstat",
+      "summary": "make histogram from diff-output",
+      "description": "Create a histogram from the output of the `diff` command."
+    },
+    {
+      "name": "mysql",
+      "summary": "the MySQL command-line tool",
+      "description": "The MySQL command-line tool."
+    },
+    {
+      "name": "file",
+      "summary": "Determine file type",
+      "description": "Determine file type."
+    },
+    {
+      "name": "gpg",
+      "summary": "OpenPGP encryption and signing tool",
+      "description": "GNU Privacy Guard."
+    },
+    {
+      "name": "lxc",
+      "summary": "Command line client for LXD",
+      "description": "Manage Linux containers using the lxd REST API.\nAny container names or patterns can be prefixed with the name of a remote server."
+    },
+    {
+      "name": "dpkg",
+      "summary": "package manager for Debian",
+      "description": "Debian package manager."
+    },
+    {
+      "name": "mongo",
+      "summary": "MongoDB Shell",
+      "description": "MongoDB interactive shell client. You can use the mongo shell to query and update data as well as perform administrative operations on a MongoDB database instance."
+    },
+    {
+      "name": "false",
+      "summary": "Return false value",
+      "description": "Exit with a status code indicating failure."
+    },
+    {
+      "name": "mycli",
+      "summary": "Command line client for MySQL/MariaDB and Percona",
+      "description": "A CLI for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting."
+    },
+    {
+      "name": "nl",
+      "summary": "Number lines of files",
+      "description": "A utility for numbering lines, either from a file, or from standard input."
+    },
+    {
+      "name": "gzip",
+      "summary": "Compress or expand files",
+      "description": "Gzip reduces the size of the named files using Lempel-Ziv coding (LZ77)."
+    },
+    {
+      "name": "od",
+      "summary": "Dump files in octal and other formats",
+      "description": "Display file contents in octal, decimal or hexadecimal format.\nOptionally display the byte offsets and/or printable representation for each line."
+    },
+    {
+      "name": "pg_ctl",
+      "summary": "initialize, start, stop, or control a PostgreSQL server",
+      "description": "Utility for controlling a PostgreSQL server and database cluster."
+    },
+    {
+      "name": "nmap",
+      "summary": "Network exploration tool and security / port scanner",
+      "description": "Network exploration tool and security / port scanner.\nSome features only activate when Nmap is run with privileges."
+    },
+    {
+      "name": "history",
+      "summary": "With no options, display the command history list with line numbers.",
+      "description": "With no options, display the command history list with line numbers."
+    },
+    {
+      "name": "gzip",
+      "summary": "Compress or expand files",
+      "description": "Gzip reduces the size of the named files using Lempel-Ziv coding (LZ77)."
+    },
+    {
+      "name": "host",
+      "summary": "DNS lookup utility",
+      "description": "Lookup Domain Name Server."
+    },
+    {
+      "name": "ping",
+      "summary": "Send ICMP ECHO_REQUEST packets to network hosts",
+      "description": "Ping uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from a host or gateway."
+    },
+    {
+      "name": "qemu-img",
+      "summary": "QEMU disk image utility",
+      "description": "Tool for Quick Emulator Virtual HDD image creation and manipulation."
+    },
+    {
+      "name": "id",
+      "summary": "print real and effective user and group IDs",
+      "description": "Display current user and group identity."
+    },
+    {
+      "name": "realpath",
+      "summary": "Print the resolved path",
+      "description": "Print the resolved absolute file name; all but the last component must exist"
+    },
+    {
+      "name": "pacman",
+      "summary": "Pacman is a package management utility that tracks installed packages on a Linux system.",
+      "description": "Pacman is a package management utility that tracks installed packages on a Linux system. It features dependency support, package groups, install and uninstall scripts, and the ability to sync your local machine with a remote repository to automatically upgrade packages. Pacman packages are a zipped tar format."
+    },
+    {
+      "name": "iperf3",
+      "summary": "Perform network throughput tests",
+      "description": "Traffic generator for testing network bandwidth."
+    },
+    {
+      "name": "ruby",
+      "summary": "Interpreted object-oriented scripting language",
+      "description": "Ruby programming language interpreter."
+    },
+    {
+      "name": "http",
+      "summary": "CLI, cURL-like tool for humans",
+      "description": "HTTPie: HTTP client, a user-friendly cURL replacement."
+    },
+    {
+      "name": "jq",
+      "summary": "Command-line JSON processor",
+      "description": "A lightweight and flexible command-line JSON processor."
+    },
+    {
+      "name": "seq",
+      "summary": "Print sequences of numbers",
+      "description": "Output a sequence of numbers to stdout."
+    },
+    {
+      "name": "shasum",
+      "summary": "Print or Check SHA Checksums",
+      "description": "Calculate or check cryptographic SHA checksums."
+    },
+    {
+      "name": "last",
+      "summary": "show a listing of last logged in users",
+      "description": "View the last logged in users."
+    },
+    {
+      "name": "pg_dump",
+      "summary": "extract a PostgreSQL database into a script file or other archive file",
+      "description": "Extract a PostgreSQL database into a script file or other archive file."
+    },
+    {
+      "name": "lsof",
+      "summary": "List open files",
+      "description": "Lsof revision N lists on its standard output file information"
+    },
+    {
+      "name": "iperf",
+      "summary": "perform network throughput tests",
+      "description": "Measure network bandwidth between computers."
+    },
+    {
+      "name": "split",
+      "summary": "split files into pieces",
+      "description": "Split a file into pieces."
+    },
+    {
+      "name": "mktemp",
+      "summary": "create a temporary file or directory",
+      "description": "Create a temporary file or directory."
+    },
+    {
+      "name": "ssh",
+      "summary": "OpenSSH SSH client (remote login program)",
+      "description": "Secure Shell is a protocol used to securely log onto remote systems.\nIt can be used for logging or executing commands on a remote server."
+    },
+    {
+      "name": "sync",
+      "summary": "Synchronize cached writes to persistent storage",
+      "description": "Flushes all pending write operations to the appropriate disks."
+    },
+    {
+      "name": "mv",
+      "summary": "move (rename) files",
+      "description": "Move or rename files and directories."
+    },
+    {
+      "name": "printf",
+      "summary": "format and print data",
+      "description": "Format and print text."
+    },
+    {
+      "name": "tcpdump",
+      "summary": "Dump traffic on a network",
+      "description": "Tcpdump prints out a description of the contents of packets on a network interface that match the boolean expression. It can also be run with the -w flag, which causes it to save the packet data to a file for later analysis, and/or with the -r flag, which causes it to read from a saved packet file rather than to read packets from a network interface."
+    },
+    {
+      "name": "journalctl",
+      "summary": "Query the systemd journal.",
+      "description": "Journalctl may be used to query the contents of the systemd journal as written by systemd-journald.service"
+    },
+    {
+      "name": "tmux",
+      "summary": "terminal multiplexer",
+      "description": "Multiplex several virtual consoles."
+    },
+    {
+      "name": "netstat",
+      "summary": "Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.",
+      "description": "Netstat prints information about the Linux networking subsystem. The type of information printed is controlled by the first argument"
+    },
+    {
+      "name": "tree",
+      "summary": "list contents of directories in a tree-like format",
+      "description": "Show the contents of the current directory as a tree."
+    },
+    {
+      "name": "quota",
+      "summary": "display disk usage and limits",
+      "description": "Display users' disk space usage and allocated limits."
+    },
+    {
+      "name": "nproc",
+      "summary": "Print the number of processing units available",
+      "description": "Print the number of processing units available to the current process, which may be less than the number of online processors."
+    },
+    {
+      "name": "uniq",
+      "summary": "Report or omit repeated lines",
+      "description": "Filter adjacent matching lines from INPUT (or standard input), writing to OUTPUT (or standard output)."
+    },
+    {
+      "name": "virtualenv",
+      "summary": "create virtual Python instances",
+      "description": "Create virtual isolated Python environments."
+    },
+    {
+      "name": "whatis",
+      "summary": "display one-line manual page descriptions",
+      "description": "Display one-line descriptions from manual pages."
+    },
+    {
+      "name": "xargs",
+      "summary": "build and execute command lines from standard input",
+      "description": "Execute a command with piped arguments coming from another command, a file, etc.\nThe input is treated as a single block of text and split into separate arguments on spaces, tabs, newlines and end-of-file."
+    },
+    {
+      "name": "kmdr",
+      "summary": "CLI client for explaning shell commands",
+      "description": "The tool that helps you ramp up faster by explaining the commands you are copying to your terminal."
+    },
+    {
+      "name": "patch",
+      "summary": "apply a diff file to an original",
+      "description": "Patch a file (or files) with a diff file.\nNote that diff files contain both the target filenames and list of changes."
+    },
+    {
+      "name": "rev",
+      "summary": "reverse lines characterwise",
+      "description": "Reverse a line of text."
+    },
+    {
+      "name": "phpunit",
+      "summary": "PHPUnit command line interface",
+      "description": "PHPUnit command-line test runner."
+    },
+    {
+      "name": "docker",
+      "summary": "Docker image and container command line interface",
+      "description": "Manage Docker containers and images."
+    },
+    {
+      "name": "python",
+      "summary": "An interpreted, interactive, object-oriented programming language",
+      "description": "The CPython interpreter scans the command line and the environment for various settings."
+    },
+    {
+      "name": "lsb_release",
+      "summary": "print distribution-specific information",
+      "description": "Provides certain LSB (Linux Standard Base) and distribution-specific information."
+    },
+    {
+      "name": "readonly",
+      "summary": "Set the readonly attribute for variables",
+      "description": "The  variables whose names are specified shall be given the readonly attribute. The values of variables with the readonly attribute cannot be changed by subsequent  assignment,  nor can  those  variables be unset by the unset utility. If the name of a variable is followed by =word, then the value of that variable shall be set to word."
+    },
+    {
+      "name": "sass",
+      "summary": "Sass compiles CSS from SASS or SCSS files",
+      "description": "Converts SCSS or Sass files to CSS."
+    },
+    {
+      "name": "rsync",
+      "summary": "A fast, versatile, remote (and local) file-copying tool",
+      "description": "Transfer files either to or from a remote host (not between two remote hosts)"
+    },
+    {
+      "name": "mkdir",
+      "summary": "Make directories",
+      "description": "Creates a directory."
+    },
+    {
+      "name": "sha1sum",
+      "summary": "compute and check SHA1 message digest",
+      "description": "Calculate SHA1 cryptographic checksums."
+    },
+    {
+      "name": "mount",
+      "summary": "Mount a filesystem",
+      "description": "All files accessible in a Unix system are arranged in one big tree, the file hierarchy, rooted at /. These files can be spread out over several devices.  The mount command serves to attach the filesystem found on some device to the big file tree.  Conversely, the umount(8) command will detach it again.  The filesystem is used to control how data is stored on the device or provided in a virtual way by network or another services."
+    },
+    {
+      "name": "sed",
+      "summary": "Stream editor for filtering and transforming text",
+      "description": "Sed is a stream editor. A stream editor is used to perform basic text transformations on an input stream (a file or input from a pipeline). While in some ways similar to an editor which permits scripted edits (such as ed), sed works by making only one pass over the input(s), and is consequently more efficient. But it is sed's ability to filter text in a pipeline which particularly distinguishes it from other types of editors."
+    },
+    {
+      "name": "sha512sum",
+      "summary": "compute and check SHA512 message digest",
+      "description": "Calculate SHA512 cryptographic checksums."
+    },
+    {
+      "name": "shutdown",
+      "summary": "Halt, power-off or reboot the machine",
+      "description": "Shutdown may be used to halt, power-off or reboot the machine. The first argument may be a time string (which is usually now). Optionally, this may be followed by a wall message to be sent to all logged-in users before going down."
+    },
+    {
+      "name": "sort",
+      "summary": "Sort lines of text files",
+      "description": "Sort lines of text files."
+    },
+    {
+      "name": "nano",
+      "summary": "Nano's ANOther editor, an enhanced free Pico clone",
+      "description": "Simple, easy to use editor. An enhanced, free Pico clone."
+    },
+    {
+      "name": "sqlite3",
+      "summary": "A command line interface for SQLite version 3",
+      "description": "The command-line interface to SQLite 3, which is a self-contained file-based embedded SQL engine."
+    },
+    {
+      "name": "nohup",
+      "summary": "run a command immune to hangups, with output to a non-tty",
+      "description": "Allows for a process to live when the terminal gets killed."
+    },
+    {
+      "name": "ssh-keygen",
+      "summary": "Authentication key generation, management and conversion",
+      "description": "Generate ssh keys user for authentication, password-less logins, and other things."
+    },
+    {
+      "name": "stat",
+      "summary": "display file or file system status",
+      "description": "Display file and filesystem information."
+    },
+    {
+      "name": "paste",
+      "summary": "merge lines of files",
+      "description": "Merge lines of files."
+    },
+    {
+      "name": "systemctl",
+      "summary": "Control the systemd system and service manager",
+      "description": "Control the systemd system and service manager."
+    },
+    {
+      "name": "sum",
+      "summary": "checksum and count the blocks in a file",
+      "description": "Compute checksums and the number of blocks for a file.\nA predecessor to the more modern `cksum`."
+    },
+    {
+      "name": "phploc",
+      "summary": "PHPLOC command line interface",
+      "description": "A tool for quickly measuring the size and analyzing the structure of a PHP project."
+    },
+    {
+      "name": "tar",
+      "summary": "An archiving utility",
+      "description": "GNU 'tar' saves many files together into a single tape or disk archive, and can restore individual files from the archive."
+    },
+    {
+      "name": "tee",
+      "summary": "Read from standard input and write to standard output and files",
+      "description": "Read from standard input and write to standard output and files (or commands)."
+    },
+    {
+      "name": "pwd",
+      "summary": "Print name of current/working directory",
+      "description": "Print name of current/working directory."
+    },
+    {
+      "name": "timeout",
+      "summary": "Run a command with a time limit",
+      "description": "Run a command with a time limit."
+    },
+    {
+      "name": "top",
+      "summary": "Display Linux processes",
+      "description": "Display dynamic real-time information about running processes."
+    },
+    {
+      "name": "traceroute",
+      "summary": "Print the route packets trace to network host",
+      "description": "traceroute tracks the route packets taken from an IP network on their way to a given host. It utilizes the IP protocol's time to live (TTL) field and attempts to elicit an ICMP TIME_EXCEEDED response from each gateway along the path to the host."
+    },
+    {
+      "name": "readlink",
+      "summary": "print resolved symbolic links or canonical file names",
+      "description": "Follow symlinks and get symlink information."
+    },
+    {
+      "name": "uname",
+      "summary": "Print system information",
+      "description": "Print details about the current machine and the operating system running on it.\nNote: for additional information about the operating system, try the `lsb_release` command."
+    },
+    {
+      "name": "true",
+      "summary": "Return true value",
+      "description": "Exit with a status code indicating success."
+    },
+    {
+      "name": "vim",
+      "summary": "Vi IMproved, a programmer's text editor",
+      "description": "Vi IMproved, a programmer's text editor, providing several modes for different kinds of text manipulation.\nPressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion."
+    },
+    {
+      "name": "rmdir",
+      "summary": "Remove empty directories",
+      "description": "Removes a directory."
+    },
+    {
+      "name": "unzip",
+      "summary": "list, test and extract compressed files in a ZIP archive",
+      "description": "Extract compressed files in a ZIP archive."
+    },
+    {
+      "name": "wget",
+      "summary": "The non-interactive network downloader",
+      "description": "GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP , HTTPS , and FTP protocols, as well as retrieval through HTTP proxies."
+    },
+    {
+      "name": "screen",
+      "summary": "Screen manager with VT100/ANSI terminal emulation",
+      "description": "Screen is a full-screen window manager that multiplexes a physical terminal between several processes (typically interactive shells)."
+    },
+    {
+      "name": "whoami",
+      "summary": "print effective userid",
+      "description": "Show the username of the current user."
+    },
+    {
+      "name": "visudo",
+      "summary": "Edit the sudoers file",
+      "description": "Edits the sudoers file in a safe fashion, analogous to vipw(8). visudo locks the sudoers file against multiple simultaneous edits, provides basic sanity checks, and checks for parse errors. If the sudoers file is currently being edited you will receive a message to try again later."
+    },
+    {
+      "name": "docker-compose",
+      "summary": "Define and run multi-container applications with Docker",
+      "description": "Run and manage multi container docker applications."
+    },
+    {
+      "name": "sha384sum",
+      "summary": "compute and check SHA384 message digest",
+      "description": "Calculate SHA384 cryptographic checksums."
+    },
+    {
+      "name": "whereis",
+      "summary": "locate the binary, source, and manual page files for a command",
+      "description": "Locate the binary, source, and manual page files for a command."
+    },
+    {
+      "name": "sleep",
+      "summary": "delay for a specified amount of time",
+      "description": "Delay for a specified amount of time."
+    },
+    {
+      "name": "xclip",
+      "summary": "command line interface to X selections (clipboard)",
+      "description": "X11 clipboard manipulation tool, similar to `xsel`.\nHandles the X primary and secondary selections, plus the system clipboard (`Ctrl + C`/`Ctrl + V`)."
+    },
+    {
+      "name": "ssh-copy-id",
+      "summary": "use locally available keys to authorise logins on a remote machine",
+      "description": "Install your public key in a remote machine's authorized_keys."
+    },
+    {
+      "name": "gem",
+      "summary": "Frontend to RubyGems, the Ruby package manager",
+      "description": "Interact with the package manager for the Ruby programming language."
+    },
+    {
+      "name": "sudo",
+      "summary": "Execute a command with the privileges of a different user without switching environments",
+      "description": "Sudo allows a permitted user to execute a command as the superuser or another user, as specified by the security policy"
+    },
+    {
+      "name": "tail",
+      "summary": "output the last part of files",
+      "description": "Display the last part of a file."
+    },
+    {
+      "name": "time",
+      "summary": "Run programs and summarize system resource usage",
+      "description": "Time run the program COMMAND with any given arguments ARG....  When COMMAND finishes, time displays information about resources used by COMMAND (on the standard error output, by  default)."
+    },
+    {
+      "name": "tr",
+      "summary": "Translate or delete characters",
+      "description": "Translate characters - run replacements based on single characters and character sets."
+    },
+    {
+      "name": "umask",
+      "summary": "get or set the file mode creation mask",
+      "description": "Manage the read/write/execute permissions that are masked out (i.e. restricted) for newly created files by the user."
+    },
+    {
+      "name": "vi",
+      "summary": "Vi IMproved, a programmers text editor",
+      "description": "Vim is a text editor that is upwards compatible to Vi. It can be used to edit all kinds of plain text. It is especially useful for editing programs."
+    },
+    {
+      "name": "wc",
+      "summary": "Print newline, word, and byte counts for each file",
+      "description": "Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is specified. With no FILE, or when FILE is -, read standard input."
+    },
+    {
+      "name": "who",
+      "summary": "show who is logged on",
+      "description": "Display who is logged in and related data (processes, boot time)."
+    },
+    {
+      "name": "conda",
+      "summary": "Package, dependency and environment management for any language—Python, R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN, and more.",
+      "description": "Conda provides many commands for managing packages and environments. The links on this page provide help for each command. You can also access help from the command line with the --help flag:"
+    },
+    {
+      "name": "go",
+      "summary": "Go is a tool for managing Go source code",
+      "description": "Go is a tool for managing Go source code"
+    },
+    {
+      "name": "now",
+      "summary": "Make serverless application deployment easy",
+      "description": "Now is a cloud platform for static sites and Serverless Functions. It enables developers to host websites and web services that deploy instantly, scale automatically, and requires no supervision, all with no configuration."
+    },
+    {
+      "name": "yarn",
+      "summary": "Fast, reliable, and secure dependency management",
+      "description": "Yarn provides a rich set of command-line commands to help you with various aspects of your Yarn package, including installation, administration, publishing, etc."
+    },
+    {
+      "name": "openssl",
+      "summary": "OpenSSL is a cryptography toolkit",
+      "description": "OpenSSL cryptographic toolkit implementing the Transport Layer Security (TLS v1) network protocol, as well as related cryptography standards."
+    },
+    {
+      "name": "hg",
+      "summary": "Mercurial source code management system",
+      "description": "Mercurial is a free, distributed source control management tool. It efficiently handles projects of any size and offers an easy and intuitive interface."
+    },
+    {
+      "name": "pip",
+      "summary": "A tool for installing and managing Python packages",
+      "description": "Python package manager."
+    },
+    {
+      "name": "gcc",
+      "summary": "GNU project C and C++ compiler",
+      "description": "Preprocesses and compiles C and C++ source files, then assembles and links them together."
+    },
+    {
+      "name": "kubectl",
+      "summary": "Run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs.",
+      "description": "Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications"
+    },
+    {
+      "name": "vagrant",
+      "summary": "Manage lightweight, reproducible, and portable development environments.",
+      "description": "Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the \"works on my machine\" excuse a relic of the past."
+    },
+    {
+      "name": "gulp",
+      "summary": "Displays some custom metadata as defined upon task functions.",
+      "description": "Displays some custom metadata as defined upon task functions."
+    },
+    {
+      "name": "hexdump",
+      "summary": "ASCII, decimal, hexadecimal, octal dump",
+      "description": "An ASCII, decimal, hexadecimal, octal dump."
+    },
+    {
+      "name": "htpasswd",
+      "summary": "Manage user files for basic authentication",
+      "description": "Create and manage htpasswd files to protect web server directories using basic authentication."
+    },
+    {
+      "name": "iostat",
+      "summary": "Report Central Processing Unit (CPU) statistics and input/output statistics for devices and partitions",
+      "description": "Report statistics for devices and partitions."
+    },
+    {
+      "name": "jobs",
+      "summary": "Display status of jobs in the current session",
+      "description": "The jobs utility shall display the status of jobs that were started in the current shell environment."
+    },
+    {
+      "name": "killall",
+      "summary": "Kill processes by name",
+      "description": "Send kill signal to all instances of a process by name (must be exact name).\nAll signals except SIGKILL and SIGSTOP can be intercepted by the process, allowing a clean exit."
+    },
+    {
+      "name": "ls",
+      "summary": "List directory contents",
+      "description": "List information about the FILEs (the current directory by default). Sort entries alphabetically if none of -cftuvSUX nor --sort."
+    },
+    {
+      "name": "md5sum",
+      "summary": "Compute and check MD5 message digest",
+      "description": "Calculate MD5 cryptographic checksums."
+    },
+    {
+      "name": "more",
+      "summary": "display files on a page-by-page basis",
+      "description": "Open a file for interactive reading, allowing scrolling and search (in forward direction only)."
+    },
+    {
+      "name": "mysqldump",
+      "summary": "a database backup program",
+      "description": "Backups MySQL databases."
+    },
+    {
+      "name": "node",
+      "summary": "Server-side JavaScript runtime",
+      "description": "Server-side JavaScript platform (Node.js)."
+    },
+    {
+      "name": "passwd",
+      "summary": "change user password",
+      "description": "Passwd is a tool used to change a user's password."
+    },
+    {
+      "name": "pg_restore",
+      "summary": "restore a PostgreSQL database from an archive file created by pg_dump",
+      "description": "Restore a PostgreSQL database from an archive file created by pg_dump."
+    },
+    {
+      "name": "ps",
+      "summary": "report a snapshot of the current processes",
+      "description": "Information about running processes."
+    },
+    {
+      "name": "read",
+      "summary": "catenate files",
+      "description": "Read reads a single line from standard input, or from the file descriptor fd if the -u option is used"
+    },
+    {
+      "name": "rm",
+      "summary": "remove files or directories",
+      "description": "This manual page documents the GNU version of rm. rm removes each specified file. By default, it does not remove directories."
+    },
+    {
+      "name": "scp",
+      "summary": "Secure copy (remote file copy program)",
+      "description": "Copy files between hosts using Secure Copy Protocol over SSH."
+    },
+    {
+      "name": "sha256sum",
+      "summary": "Compute and check SHA256 message digest",
+      "description": "Calculate SHA256 cryptographic checksums."
+    },
+    {
+      "name": "singularity",
+      "summary": "Singularity containers command line interface",
+      "description": "Manage Singularity containers and images."
+    },
+    {
+      "name": "ssh-add",
+      "summary": "Adds private key identities to the authentication agent",
+      "description": "Manage loaded ssh keys in the ssh-agent.\nEnsure that ssh-agent is up and running for the keys to be loaded in it."
+    },
+    {
+      "name": "strings",
+      "summary": "Print the strings of printable characters in files",
+      "description": "Find printable strings in an object file or binary."
+    },
+    {
+      "name": "tac",
+      "summary": "concatenate and print files in reverse",
+      "description": "Print and concatenate files in reverse."
+    },
+    {
+      "name": "telnet",
+      "summary": "User interface to the TELNET protocol",
+      "description": "The telnet command is used for interactive communication with another host using the TELNET protocol. It begins in command mode, where it prints a telnet prompt (\"telnet> \")."
+    },
+    {
+      "name": "touch",
+      "summary": "Change file timestamps",
+      "description": "Update the access and modification times of each FILE to the current time"
+    },
+    {
+      "name": "tty",
+      "summary": "print the file name of the terminal connected to standard input",
+      "description": "Returns terminal name."
+    },
+    {
+      "name": "uptime",
+      "summary": "Tell how long the system has been running",
+      "description": "Tell how long the system has been running and other information."
+    },
+    {
+      "name": "watch",
+      "summary": "Execute a program periodically, showing output fullscreen",
+      "description": "Watch runs command repeatedly, displaying its output and errors (the first screenfull).  This allows you to watch the program output change over time.  By default, command is run every 2 seconds and watch will run until interrupted."
+    },
+    {
+      "name": "which",
+      "summary": "locate a command",
+      "description": "Locate a program in the user's path."
+    },
+    {
+      "name": "youtube-dl",
+      "summary": "download videos from youtube.com or other video platforms",
+      "description": "Download videos from YouTube and other websites."
+    },
+    {
+      "name": "git",
+      "summary": "The stupid content tracker",
+      "description": "Git is a fast, scalable, distributed revision control system"
+    },
+    {
+      "name": "npm",
+      "summary": "javascript package manager",
+      "description": "Javascript package manager"
+    }
+  ]
+}

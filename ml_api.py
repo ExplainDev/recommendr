@@ -1,29 +1,23 @@
 from flask import Flask, jsonify, request, render_template
 import recommender
 
-
 app = Flask(__name__)
-
 
 @app.route("/")
 def home():
-
     return render_template("home.html")
-
 
 @app.route("/recommendations", methods = ['GET', 'POST'])
 def recommend():
-    program = request.args.get("program")
-    if request.args.get("platformid"):
-        platformid = int(request.args.get("platformid"))
-    else:
-        platformid = None
+    name = request.args.get("name")
+
     if request.args.get("k"):
         k = int(request.args.get("k")) + 1
     else:
         k = None
-    recommendations = recommender.get_recommendations(
-        program, platformid, recommender.cosine_sim, k)
+
+    recommendations = recommender.get_recommendations(name, recommender.cosine_sim, k)
+
     return jsonify(recommendations)
 
 
