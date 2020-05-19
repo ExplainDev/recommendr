@@ -11,8 +11,8 @@ metadata = pd.DataFrame(data=data['programs'])
 # Create the tfidf vectorizer object
 tfidf = TfidfVectorizer(stop_words='english')
 
-metadata['description'] = metadata['description'].fillna('')
-tfidf_matrix = tfidf.fit_transform(metadata['description'])
+metadata['summary'] = metadata['summary'].fillna('')
+tfidf_matrix = tfidf.fit_transform(metadata['summary'])
 
 # Using cosine similarity between descriptions.
 cosine_sim = linear_kernel(tfidf_matrix, tfidf_matrix)
@@ -39,11 +39,11 @@ def get_recommendations(name, cosine_sim=cosine_sim, k=None):
 
     # Return the top k or 5 most similar programs
     names = metadata['name'].iloc[program_indices].tolist()
-    description = metadata['description'].iloc[program_indices].tolist()
+    description = metadata['summary'].iloc[program_indices].tolist()
     
     recs = dict()
     recs["recommendations"] = []
     for x, y in zip(names, description):
-        recs["recommendations"].append({"name": x, "description": y})
+        recs["recommendations"].append({"name": x, "summary": y})
 
     return recs
