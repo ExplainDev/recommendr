@@ -10,7 +10,7 @@
     },
     {
       "name": "ack",
-      "summary": "grep-like text finder"
+      "summary": "Grep-Like text finder"
     },
     {
       "name": "adb",
@@ -33,6 +33,10 @@
       "summary": "Define or display command aliases"
     },
     {
+      "name": "amazon-linux-extras",
+      "summary": "Provide modern application environment with the latest enhancements from the Linux community"
+    },
+    {
       "name": "ansible-galaxy",
       "summary": "Create and manage Ansible roles"
     },
@@ -50,7 +54,7 @@
     },
     {
       "name": "apropos",
-      "summary": "search the manual page names and descriptions"
+      "summary": "Search the manual page names and descriptions"
     },
     {
       "name": "apt-cache",
@@ -82,7 +86,7 @@
     },
     {
       "name": "at",
-      "summary": "execute commands at a later time"
+      "summary": "Execute commands at a later time"
     },
     {
       "name": "autossh",
@@ -102,11 +106,11 @@
     },
     {
       "name": "base32",
-      "summary": "base32 encode/decode data and print to standard output"
+      "summary": "Base32 encode/decode data and print to standard output"
     },
     {
       "name": "base64",
-      "summary": "base64 encode/decode data and print to standard output"
+      "summary": "Base64 encode/decode data and print to standard output"
     },
     {
       "name": "basename",
@@ -117,12 +121,16 @@
       "summary": "GNU Bourne-Again SHell"
     },
     {
+      "name": "bats",
+      "summary": "Bash Automated Testing System"
+    },
+    {
       "name": "bc",
-      "summary": "arbitrary-precision arithmetic language"
+      "summary": "Arbitrary precision arithmetic language"
     },
     {
       "name": "bg",
-      "summary": "run jobs in the background"
+      "summary": "Run jobs in the background"
     },
     {
       "name": "bindkey",
@@ -182,7 +190,7 @@
     },
     {
       "name": "chsh",
-      "summary": "change login shell"
+      "summary": "Change login shell"
     },
     {
       "name": "clear",
@@ -282,11 +290,11 @@
     },
     {
       "name": "diff",
-      "summary": "compare files line by line"
+      "summary": "Compare files line by line"
     },
     {
       "name": "diffstat",
-      "summary": "make histogram from diff-output"
+      "summary": "Make histogram from diff-output"
     },
     {
       "name": "dig",
@@ -302,7 +310,7 @@
     },
     {
       "name": "disown",
-      "summary": "Removes jobs from the job table"
+      "summary": "Remove jobs from the job table"
     },
     {
       "name": "djangoadmin",
@@ -326,11 +334,11 @@
     },
     {
       "name": "doxygen",
-      "summary": "documentation system for various programming languages"
+      "summary": "Documentation system for various programming languages"
     },
     {
       "name": "dpkg-query",
-      "summary": "a tool to query the dpkg database"
+      "summary": "A tool to query the dpkg database"
     },
     {
       "name": "dpkg-reconfigure",
@@ -338,7 +346,11 @@
     },
     {
       "name": "dpkg",
-      "summary": "package manager for Debian"
+      "summary": "Package manager for Debian"
+    },
+    {
+      "name": "drush",
+      "summary": "Ship with lots of useful commands for interacting with code like modules/themes/profiles"
     },
     {
       "name": "dtrace",
@@ -365,8 +377,12 @@
       "summary": "Print lines matching a pattern"
     },
     {
+      "name": "emacs",
+      "summary": "GNU project Emacs editor"
+    },
+    {
       "name": "env",
-      "summary": "run a program in a modified environment"
+      "summary": "Run a program in a modified environment"
     },
     {
       "name": "esxcli",
@@ -378,11 +394,15 @@
     },
     {
       "name": "eval",
-      "summary": "construct command by concatenating arguments"
+      "summary": "Construct command by concatenating arguments"
     },
     {
       "name": "exa",
       "summary": "A replacement for ls written in Rust"
+    },
+    {
+      "name": "exec",
+      "summary": "Bash exec builtin command"
     },
     {
       "name": "exit",
@@ -410,11 +430,11 @@
     },
     {
       "name": "ffmpeg",
-      "summary": "ffmpeg video converter"
+      "summary": "Video converter"
     },
     {
       "name": "fg",
-      "summary": "run jobs in the foreground"
+      "summary": "Run jobs in the foreground"
     },
     {
       "name": "file",
@@ -558,7 +578,7 @@
     },
     {
       "name": "gulp",
-      "summary": "Displays some custom metadata as defined upon task functions."
+      "summary": "Display some custom metadata as defined upon task functions."
     },
     {
       "name": "gzip",
@@ -586,7 +606,7 @@
     },
     {
       "name": "header",
-      "summary": "Prints information about an image file"
+      "summary": "Print information about an image file"
     },
     {
       "name": "helm",
@@ -610,7 +630,7 @@
     },
     {
       "name": "hostname",
-      "summary": "show or set the system's host name"
+      "summary": "Show or set the system's host name"
     },
     {
       "name": "hostnamectl",
@@ -634,7 +654,7 @@
     },
     {
       "name": "id",
-      "summary": "print real and effective user and group IDs"
+      "summary": "Print real and effective user and group IDs"
     },
     {
       "name": "ifconfig",
@@ -658,7 +678,7 @@
     },
     {
       "name": "iperf",
-      "summary": "perform network throughput tests"
+      "summary": "Perform network throughput tests"
     },
     {
       "name": "iperf3",
@@ -679,6 +699,10 @@
     {
       "name": "javac",
       "summary": "Java programming language compiler"
+    },
+    {
+      "name": "jest",
+      "summary": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity"
     },
     {
       "name": "jmap",
@@ -702,11 +726,15 @@
     },
     {
       "name": "jupyter",
-      "summary": "obtain user-related paths for Jupyter"
+      "summary": "Obtain user-related paths for Jupyter"
     },
     {
       "name": "kata-runtime",
       "summary": "Referred to as \"the runtime\", is the Command-Line Interface (CLI) part of the Kata Containers runtime component."
+    },
+    {
+      "name": "keytool",
+      "summary": "Manage a keystore (database) of cryptographic keys, X.509 certificate chains, and trusted certificates"
     },
     {
       "name": "kill",
@@ -718,7 +746,7 @@
     },
     {
       "name": "kmdr",
-      "summary": "kmdr explains the syntax of CLI commands you select in your terminal"
+      "summary": "kmdr explains the syntax of CLI commands in your terminal"
     },
     {
       "name": "kubectl",
@@ -726,7 +754,7 @@
     },
     {
       "name": "last",
-      "summary": "show a listing of last logged in users"
+      "summary": "Show a listing of last logged in users"
     },
     {
       "name": "ld",
@@ -746,19 +774,35 @@
     },
     {
       "name": "ln",
-      "summary": "link files"
+      "summary": "Link files"
     },
     {
       "name": "localectl",
       "summary": "Control the system locale and keyboard layout settings"
     },
     {
+      "name": "locate",
+      "summary": "Find files by name"
+    },
+    {
       "name": "logout",
-      "summary": "login, logout - write utmp and wtmp entries"
+      "summary": "Login, logout - write utmp and wtmp entries"
+    },
+    {
+      "name": "logrotate",
+      "summary": "Rotate, compress, and mail system logs"
     },
     {
       "name": "lolcat",
       "summary": "Rainbow coloring for text"
+    },
+    {
+      "name": "losetup",
+      "summary": "Set up and control loop devices"
+    },
+    {
+      "name": "losf",
+      "summary": "List open files"
     },
     {
       "name": "ls",
@@ -793,8 +837,12 @@
       "summary": "Command line client for LXD"
     },
     {
+      "name": "lzma",
+      "summary": "Compress or decompress .xz and .lzma files"
+    },
+    {
       "name": "mailx",
-      "summary": "process messages"
+      "summary": "Process messages"
     },
     {
       "name": "make",
@@ -826,7 +874,7 @@
     },
     {
       "name": "mktemp",
-      "summary": "create a temporary file or directory"
+      "summary": "Create a temporary file or directory"
     },
     {
       "name": "modinfo",
@@ -846,19 +894,27 @@
     },
     {
       "name": "mongodump",
-      "summary": "export MongoDB data from a server to BSON files"
+      "summary": "Export MongoDB data from a server to BSON files"
     },
     {
       "name": "more",
-      "summary": "display files on a page-by-page basis"
+      "summary": "Display files on a page-by-page basis"
     },
     {
       "name": "mount",
       "summary": "Mount a filesystem"
     },
     {
+      "name": "mpv",
+      "summary": "Media player based on MPlayer and mplayer2"
+    },
+    {
+      "name": "mtr",
+      "summary": "A network diagnostic tool"
+    },
+    {
       "name": "mv",
-      "summary": "move (rename) files"
+      "summary": "Move (rename) files"
     },
     {
       "name": "mycli",
@@ -870,7 +926,7 @@
     },
     {
       "name": "mysqldump",
-      "summary": "a database backup program"
+      "summary": "Database backup program"
     },
     {
       "name": "nano",
@@ -889,12 +945,20 @@
       "summary": "NCurses Disk Usage"
     },
     {
+      "name": "ncli",
+      "summary": "Run system administration commands against the Nutanix cluster"
+    },
+    {
       "name": "neofetch",
       "summary": "A fast, highly customizable system info script"
     },
     {
       "name": "netstat",
       "summary": "Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships."
+    },
+    {
+      "name": "newgrp",
+      "summary": "Log in to a new group"
     },
     {
       "name": "nft",
@@ -914,7 +978,7 @@
     },
     {
       "name": "nmcli",
-      "summary": "command-line tool for controlling NetworkManager"
+      "summary": "Command line tool for controlling Network Manager"
     },
     {
       "name": "node",
@@ -922,7 +986,7 @@
     },
     {
       "name": "nohup",
-      "summary": "run a command immune to hangups, with output to a non-tty"
+      "summary": "Run a command immune to hangups, with output to a non-tty"
     },
     {
       "name": "now",
@@ -946,7 +1010,7 @@
     },
     {
       "name": "nslookup",
-      "summary": "query Internet name servers interactively"
+      "summary": "Query Internet name servers interactively"
     },
     {
       "name": "numactl",
@@ -977,20 +1041,24 @@
       "summary": "Pacman is a package management utility that tracks installed packages on a Linux system."
     },
     {
+      "name": "pandoc",
+      "summary": "Haskell library for converting from one markup format to another"
+    },
+    {
       "name": "parted",
       "summary": "GNU Parted is a program for creating and manipulating partition tables."
     },
     {
       "name": "passwd",
-      "summary": "change user password"
+      "summary": "Change user password"
     },
     {
       "name": "paste",
-      "summary": "merge lines of files"
+      "summary": "Merge lines of files"
     },
     {
       "name": "patch",
-      "summary": "apply a diff file to an original"
+      "summary": "Apply a diff file to an original"
     },
     {
       "name": "pbcopy",
@@ -1006,11 +1074,11 @@
     },
     {
       "name": "perl",
-      "summary": "Programming language that can be used to perform tasks that would be difficult or cumbersome on the command line."
+      "summary": "Programming language that can be used to perform tasks that would be difficult or cumbersome on the command line"
     },
     {
       "name": "pg_ctl",
-      "summary": "initialize, start, stop, or control a PostgreSQL server"
+      "summary": "Initialize, start, stop, or control a PostgreSQL server"
     },
     {
       "name": "pg_dump",
@@ -1018,7 +1086,7 @@
     },
     {
       "name": "pg_restore",
-      "summary": "restore a PostgreSQL database from an archive file created by pg_dump"
+      "summary": "Restore a PostgreSQL database from an archive file created by pg_dump"
     },
     {
       "name": "pgrep",
@@ -1034,7 +1102,7 @@
     },
     {
       "name": "pigz",
-      "summary": "compress or expand files"
+      "summary": "Compress or expand files"
     },
     {
       "name": "ping",
@@ -1049,16 +1117,20 @@
       "summary": "Next Generation package management tool for FreeBSD"
     },
     {
+      "name": "pkgin",
+      "summary": "Binary package manager for pkgsrc"
+    },
+    {
       "name": "pkill",
       "summary": "Look up or signal processes based on name and other"
     },
     {
       "name": "pngcrush",
-      "summary": "optimizes (or modifies) PNG (Portable Network Graphics) files"
+      "summary": "Optimize (or modifies) PNG (Portable Network Graphics) files"
     },
     {
       "name": "popd",
-      "summary": "Removes entries from the directory stack."
+      "summary": "Remove entries from the directory stack."
     },
     {
       "name": "port",
@@ -1070,7 +1142,7 @@
     },
     {
       "name": "printf",
-      "summary": "format and print data"
+      "summary": "Format and print data"
     },
     {
       "name": "ps",
@@ -1086,7 +1158,7 @@
     },
     {
       "name": "pushd",
-      "summary": "Adds a directory to the top of the directory stack"
+      "summary": "Add a directory to the top of the directory stack"
     },
     {
       "name": "pv",
@@ -1122,7 +1194,7 @@
     },
     {
       "name": "quota",
-      "summary": "display disk usage and limits"
+      "summary": "Display disk usage and limits"
     },
     {
       "name": "rabbitmqctl",
@@ -1130,7 +1202,7 @@
     },
     {
       "name": "rails",
-      "summary": "Rails is a web development framework written in the Ruby language"
+      "summary": "Web development framework written in the Ruby language"
     },
     {
       "name": "rbenv",
@@ -1146,7 +1218,7 @@
     },
     {
       "name": "readlink",
-      "summary": "print resolved symbolic links or canonical file names"
+      "summary": "Psrint resolved symbolic links or canonical file names"
     },
     {
       "name": "readonly",
@@ -1182,7 +1254,7 @@
     },
     {
       "name": "rev",
-      "summary": "reverse lines characterwise"
+      "summary": "Reverse lines characterwise"
     },
     {
       "name": "rg",
@@ -1254,7 +1326,7 @@
     },
     {
       "name": "sha1sum",
-      "summary": "compute and check SHA1 message digest"
+      "summary": "Compute and check SHA1 message digest"
     },
     {
       "name": "sha256sum",
@@ -1262,11 +1334,11 @@
     },
     {
       "name": "sha384sum",
-      "summary": "compute and check SHA384 message digest"
+      "summary": "Compute and check SHA384 message digest"
     },
     {
       "name": "sha512sum",
-      "summary": "compute and check SHA512 message digest"
+      "summary": "Compute and check SHA512 message digest"
     },
     {
       "name": "shasum",
@@ -1294,7 +1366,7 @@
     },
     {
       "name": "sleep",
-      "summary": "delay for a specified amount of time"
+      "summary": "Delay for a specified amount of time"
     },
     {
       "name": "smbclient",
@@ -1314,7 +1386,7 @@
     },
     {
       "name": "split",
-      "summary": "split files into pieces"
+      "summary": "Split files into pieces"
     },
     {
       "name": "sqlite3",
@@ -1326,11 +1398,11 @@
     },
     {
       "name": "ssh-add",
-      "summary": "Adds private key identities to the authentication agent"
+      "summary": "Add private key identities to the authentication agent"
     },
     {
       "name": "ssh-copy-id",
-      "summary": "use locally available keys to authorise logins on a remote machine"
+      "summary": "Use locally available keys to authorise logins on a remote machine"
     },
     {
       "name": "ssh-keygen",
@@ -1354,11 +1426,11 @@
     },
     {
       "name": "stat",
-      "summary": "display file or file system status"
+      "summary": "Display file or file system status"
     },
     {
       "name": "strace",
-      "summary": "trace system calls and signals"
+      "summary": "Trace system calls and signals"
     },
     {
       "name": "strings",
@@ -1370,7 +1442,7 @@
     },
     {
       "name": "sum",
-      "summary": "checksum and count the blocks in a file"
+      "summary": "Checksum and count the blocks in a file"
     },
     {
       "name": "swapoff",
@@ -1398,11 +1470,11 @@
     },
     {
       "name": "tac",
-      "summary": "concatenate and print files in reverse"
+      "summary": "Concatenate and print files in reverse"
     },
     {
       "name": "tail",
-      "summary": "output the last part of files"
+      "summary": "Output the last part of files"
     },
     {
       "name": "tar",
@@ -1446,7 +1518,7 @@
     },
     {
       "name": "tmux",
-      "summary": "terminal multiplexer"
+      "summary": "Terminal multiplexer"
     },
     {
       "name": "top",
@@ -1470,11 +1542,11 @@
     },
     {
       "name": "trap",
-      "summary": "trap signals"
+      "summary": "Trap signals"
     },
     {
       "name": "tree",
-      "summary": "list contents of directories in a tree-like format"
+      "summary": "List contents of directories in a tree-like format"
     },
     {
       "name": "true",
@@ -1482,7 +1554,7 @@
     },
     {
       "name": "tty",
-      "summary": "print the file name of the terminal connected to standard input"
+      "summary": "Print the file name of the terminal connected to standard input"
     },
     {
       "name": "ttyd",
@@ -1494,7 +1566,7 @@
     },
     {
       "name": "umask",
-      "summary": "get or set the file mode creation mask"
+      "summary": "Get or set the file mode creation mask"
     },
     {
       "name": "umount",
@@ -1522,7 +1594,7 @@
     },
     {
       "name": "unzip",
-      "summary": "list, test and extract compressed files in a ZIP archive"
+      "summary": "List, test and extract compressed files in a ZIP archive"
     },
     {
       "name": "uptime",
@@ -1554,7 +1626,7 @@
     },
     {
       "name": "virtualenv",
-      "summary": "create virtual Python instances"
+      "summary": "Create virtual Python instances"
     },
     {
       "name": "visudo",
@@ -1570,7 +1642,7 @@
     },
     {
       "name": "wait",
-      "summary": "await process completion"
+      "summary": "Await process completion"
     },
     {
       "name": "watch",
@@ -1594,23 +1666,23 @@
     },
     {
       "name": "whatis",
-      "summary": "display one-line manual page descriptions"
+      "summary": "Display one-line manual page descriptions"
     },
     {
       "name": "whereis",
-      "summary": "locate the binary, source, and manual page files for a command"
+      "summary": "Locate the binary, source, and manual page files for a command"
     },
     {
       "name": "which",
-      "summary": "locate a command"
+      "summary": "Locate a command"
     },
     {
       "name": "who",
-      "summary": "show who is logged on"
+      "summary": "Show who is logged on"
     },
     {
       "name": "whoami",
-      "summary": "print effective userid"
+      "summary": "Print effective userid"
     },
     {
       "name": "whois",
@@ -1642,7 +1714,11 @@
     },
     {
       "name": "xdg-open",
-      "summary": "Opens a file or URL in the user's preferred application"
+      "summary": "Open a file or URL in the user's preferred application"
+    },
+    {
+      "name": "xtrabackup",
+      "summary": "Open source hot backup utility for MySQL"
     },
     {
       "name": "xxd",
@@ -1666,7 +1742,7 @@
     },
     {
       "name": "youtube-dl",
-      "summary": "download videos from youtube.com or other video platforms"
+      "summary": "Download videos from youtube.com or other video platforms"
     },
     {
       "name": "yum-config-manager",
