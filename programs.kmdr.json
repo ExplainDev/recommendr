@@ -193,6 +193,10 @@
       "summary": "Change login shell"
     },
     {
+      "name": "chuck",
+      "summary": "Audio programming language for real-time synthesis, composition, and performance"
+    },
+    {
       "name": "clear",
       "summary": "Clear the terminal screen"
     },
@@ -311,6 +315,10 @@
     {
       "name": "disown",
       "summary": "Remove jobs from the job table"
+    },
+    {
+      "name": "django-admin",
+      "summary": "Command-line utility for administrative task"
     },
     {
       "name": "djangoadmin",
@@ -613,6 +621,10 @@
       "summary": "The Helm package manager for Kubernetes"
     },
     {
+      "name": "heroku",
+      "summary": "Perform nearly any Heroku-related task right from your terminal"
+    },
+    {
       "name": "hexdump",
       "summary": "ASCII, decimal, hexadecimal, octal dump"
     },
@@ -649,6 +661,10 @@
       "summary": "CLI, cURL-like tool for humans"
     },
     {
+      "name": "hugo",
+      "summary": "Fast and Flexible Static Site Generator built with love by spf13 and friends in Go"
+    },
+    {
       "name": "hyperfine",
       "summary": "Command-line benchmarking tool"
     },
@@ -663,6 +679,10 @@
     {
       "name": "info",
       "summary": "Read Info documents"
+    },
+    {
+      "name": "inotifywait",
+      "summary": "Wait for changes to files using inotifyt"
     },
     {
       "name": "install",
@@ -963,6 +983,10 @@
     {
       "name": "nft",
       "summary": "Administration tool of the nftables framework for packet filtering and classification"
+    },
+    {
+      "name": "ng",
+      "summary": "Initialize, develop, scaffold, and maintain Angular applications"
     },
     {
       "name": "nikto",
