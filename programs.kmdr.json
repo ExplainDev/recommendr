@@ -9,6 +9,10 @@
       "summary": "A file archiver with high compression ratio format"
     },
     {
+      "name": "ab",
+      "summary": "Apache HTTP server benchmarking tool"
+    },
+    {
       "name": "ack",
       "summary": "Grep-Like text finder"
     },
@@ -22,7 +26,7 @@
     },
     {
       "name": "adduser",
-      "summary": "Create a new user or update default new user information"
+      "summary": "Add users and groups according to /etc/adduser.conf"
     },
     {
       "name": "age",
@@ -83,6 +87,10 @@
     {
       "name": "aria2c",
       "summary": "The ultra fast download utility"
+    },
+    {
+      "name": "arp",
+      "summary": "Manipulate the system ARP cache"
     },
     {
       "name": "at",
@@ -218,7 +226,7 @@
     },
     {
       "name": "code",
-      "summary": "Command Line Interface"
+      "summary": "Command Line Interface that allow to you control how you launch the editor Visual Studio Code"
     },
     {
       "name": "column",
@@ -306,11 +314,11 @@
     },
     {
       "name": "dig",
-      "summary": "DNS lookup utility"
+      "summary": "Flexible tool for interrogating DNS name servers"
     },
     {
       "name": "dir",
-      "summary": "List directory contents"
+      "summary": "List information about the files"
     },
     {
       "name": "dirname",
@@ -331,6 +339,10 @@
     {
       "name": "dmesg",
       "summary": "Print or control the kernel ring buffer"
+    },
+    {
+      "name": "dmidecode",
+      "summary": "Table decoder"
     },
     {
       "name": "dnf",
@@ -378,7 +390,7 @@
     },
     {
       "name": "easy_install",
-      "summary": "Configure kernel parameters at runtime"
+      "summary": "Download, build, install and manage Python packages"
     },
     {
       "name": "echo",
@@ -386,7 +398,7 @@
     },
     {
       "name": "egrep",
-      "summary": "Print lines matching a pattern"
+      "summary": "Search for a text pattern, using extended regular expressions to perform the match"
     },
     {
       "name": "emacs",
@@ -482,7 +494,7 @@
     },
     {
       "name": "fold",
-      "summary": "Wrap each input line to fit in specified width"
+      "summary": "Wrap long input lines to a specified width"
     },
     {
       "name": "fortune",
@@ -602,7 +614,7 @@
     },
     {
       "name": "gzip",
-      "summary": "Compress or expand files"
+      "summary": "Compress or expand the size of the named files using Lempel-Ziv coding"
     },
     {
       "name": "hadoop",
@@ -646,7 +658,11 @@
     },
     {
       "name": "host",
-      "summary": "DNS lookup utility"
+      "summary": "Simple utility for performing DNS lookups"
+    },
+    {
+      "name": "hostctl",
+      "summary": "Your dev tool to manage /etc/hosts like a pro"
     },
     {
       "name": "hostname",
@@ -706,7 +722,7 @@
     },
     {
       "name": "iperf",
-      "summary": "Perform network throughput tests"
+      "summary": "Perform network throughput measurement"
     },
     {
       "name": "iperf3",
@@ -774,7 +790,7 @@
     },
     {
       "name": "kmdr",
-      "summary": "kmdr helps you understand the syntax of CLI commands"
+      "summary": "Learn commands from your terminal"
     },
     {
       "name": "kubectl",
@@ -830,7 +846,7 @@
     },
     {
       "name": "losf",
-      "summary": "List open files"
+      "summary": "List files opened by processes"
     },
     {
       "name": "ls",
@@ -909,6 +925,10 @@
       "summary": "Make directories"
     },
     {
+      "name": "mkfs",
+      "summary": "Build a Linux file system"
+    },
+    {
       "name": "mktemp",
       "summary": "Create a temporary file or directory"
     },
@@ -974,7 +994,7 @@
     },
     {
       "name": "ncat",
-      "summary": "Concatenate and redirect sockets"
+      "summary": "Networking utility which reads and writes data across networks from the command line"
     },
     {
       "name": "ncdu",
@@ -1142,7 +1162,7 @@
     },
     {
       "name": "pgrep",
-      "summary": "Look up or signal processes based on name and other"
+      "summary": "Search the process table and print the process IDs of all processes matching the criteria"
     },
     {
       "name": "phploc",
@@ -1154,7 +1174,7 @@
     },
     {
       "name": "pigz",
-      "summary": "Compress or expand files"
+      "summary": "Compress or expand files using threads to make use of multiple processors and cores"
     },
     {
       "name": "ping",
@@ -1258,7 +1278,7 @@
     },
     {
       "name": "rbenv",
-      "summary": "Execute npm package binaries"
+      "summary": "Install and run multiple versions of Ruby side-by-side"
     },
     {
       "name": "rclone",
@@ -1457,6 +1477,10 @@
       "summary": "Add private key identities to the authentication agent"
     },
     {
+      "name": "ssh-agent",
+      "summary": "OpenSSH authentication agent"
+    },
+    {
       "name": "ssh-copy-id",
       "summary": "Use locally available keys to authorise logins on a remote machine"
     },
@@ -1471,6 +1495,10 @@
     {
       "name": "sshd",
       "summary": "OpenSSH daemon"
+    },
+    {
+      "name": "sshpass",
+      "summary": "Noninteractive ssh password provider"
     },
     {
       "name": "sshutle",
@@ -1510,7 +1538,7 @@
     },
     {
       "name": "swift",
-      "summary": "Execute npm package binaries"
+      "summary": "Object Storage service (swift) command-line client"
     },
     {
       "name": "synaptic",
@@ -1634,7 +1662,7 @@
     },
     {
       "name": "unalias",
-      "summary": "Wrap each input line to fit in specified width"
+      "summary": "Remove an alias"
     },
     {
       "name": "uname",
@@ -1718,7 +1746,7 @@
     },
     {
       "name": "webpack",
-      "summary": "Command Line Interface"
+      "summary": "Static module bundler for modern JavaScript applications"
     },
     {
       "name": "wg",
@@ -1758,7 +1786,7 @@
     },
     {
       "name": "wp",
-      "summary": "A file archiver with high compression ratio format"
+      "summary": "Manage WordPress web sites from the command line"
     },
     {
       "name": "xargs",
@@ -1767,6 +1795,10 @@
     {
       "name": "xclip",
       "summary": "Command line interface to X selections (clipboard)"
+    },
+    {
+      "name": "xcmd",
+      "summary": "Front-end for starting programs under X11"
     },
     {
       "name": "xcode-select",
@@ -1779,6 +1811,10 @@
     {
       "name": "xdg-open",
       "summary": "Open a file or URL in the user's preferred application"
+    },
+    {
+      "name": "xrdp",
+      "summary": "Remote Desktop Protocol (RDP) server"
     },
     {
       "name": "xtrabackup",
@@ -1807,6 +1843,10 @@
     {
       "name": "youtube-dl",
       "summary": "Download videos from youtube.com or other video platforms"
+    },
+    {
+      "name": "yq",
+      "summary": "Processor - jq wrapper for YAML and XML documents"
     },
     {
       "name": "yum-config-manager",
@@ -1839,6 +1879,10 @@
     {
       "name": "zypper",
       "summary": "Command-line interface to ZYpp system management library (libzypp)"
+    },
+    {
+      "name": "ls",
+      "summary": "Listar contenido de directorios"
     }
   ]
 }
