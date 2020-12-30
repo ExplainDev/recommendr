@@ -9,13 +9,19 @@ This API service recommends a k number of programs similar to another program  y
 ## Installation
 
 ### Download the source code
-`git clone git@github.com:kommandr/kommandr-ML.git`
+```bash
+git clone git@github.com:kommandr/kommandr-ML.git
+```
 
 ### Build docker image
-`docker build -t api-recommendr .`
+```bash
+docker build -t api-recommendr .
+```
 
 ### Run docker container
-`docker run --rm -it --name api-recommendr -p 7070:7070 --network backend_default api-recommendr`
+```bash
+docker run --rm -it --name api-recommendr -p 7070:7070 --network backend_default api-recommendr
+```
 
 ## Usage
 Parameters:
@@ -29,7 +35,7 @@ Parameters:
 - 
 
 ### Show up to 10 programs similar to 'git commit'
-```
+```bash
 $ curl -X GET 'http://192.168.99.100:7070/recommendations?program=rmdir&platformid=1&k=5'
 {
   "recommendations": [
@@ -57,7 +63,7 @@ $ curl -X GET 'http://192.168.99.100:7070/recommendations?program=rmdir&platform
 }
 ```
 ### Show up to 5 programs similar to 'halt' 
-```
+```bash
 $ curl -X GET 'http://192.168.99.100:7070/recommendations?program=halt&platformid=1&k=5'
 {
   "recommendations": [
